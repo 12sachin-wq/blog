@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - Sachin Chaudhari</title>
+    <meta name="description" content="Read the latest articles on AI, quantum computing, solar technology, and more by Sachin Chaudhari.">
+    <meta name="keywords" content="AI, Quantum Computing, Solar Technology, OSINT, Articles">
+    <meta name="author" content="Sachin Chaudhari">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f5f5;">
+    <!-- Navigation Bar -->
+    <nav style="background: linear-gradient(45deg, #2193b0, #6dd5ed); padding: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="margin: 0; color: white; font-size: 1.8rem;">Sachin Chaudhari</h1>
+            <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 2rem;">
+                <li><a href="/index.html" style="color: white; text-decoration: none; font-weight: 500; transition: color 0.3s;">Home</a></li>
+                <li><a href="/articles.html" style="color: white; text-decoration: none; font-weight: 500; transition: color 0.3s;">Articles</a></li>
+                <li><a href="/about.html" style="color: white; text-decoration: none; font-weight: 500; transition: color 0.3s;">About</a></li>
+                <li><a href="/contact.html" style="color: white; text-decoration: none; font-weight: 500; transition: color 0.3s;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
+        <h2 style="color: #2193b0; margin-bottom: 2rem;">Latest Articles</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <!-- Article Cards -->
+            <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <img src="osint_blog_image.png" alt="AI OSINT Article" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #2193b0; margin-top: 0;">AI Revolutionizing OSINT Investigations</h3>
+                    <p style="color: #666; line-height: 1.6;">Discover how artificial intelligence is transforming open-source intelligence gathering and analysis with powerful new capabilities.</p>
+                    <a href="javascript:void(0)" onclick="toggleArticle('osint-article')" style="display: inline-block; background: #2193b0; color: white; padding: 0.5rem 1rem; text-decoration: none;">Read More</a>
+                    <div id="osint-article" style="display: none; margin-top: 1rem;">
+                        <h4 style="color: #2193b0;">Full Article</h4>
+                        <p style="color: #666; line-height: 1.6;">
+                            Artificial Intelligence is revolutionizing the field of Open Source Intelligence (OSINT) investigations by introducing powerful new capabilities for data collection, analysis, and interpretation.
+                        </p>
+                        <p style="color: #666; line-height: 1.6;">
+                            AI-powered tools can now automatically scan and analyze vast amounts of publicly available data from social media, news articles, and other online sources. Machine learning algorithms enable the extraction of meaningful insights from this data.
+                        </p>
+                        <p style="color: #666; line-height: 1.6;">
+                            These advancements are particularly valuable in areas such as cybersecurity, threat intelligence, and digital forensics. Investigators can now process and analyze data at unprecedented scale and speed.
+                        </p>
+                        <a href="javascript:void(0)" onclick="toggleArticle('osint-article')" style="display: inline-block; background: #2193b0; color: white; padding: 0.5rem 1rem; text-decoration: none;">Collapse</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <img src="willow.avif" alt="Google Quantum Computer Willow" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #2193b0; margin-top: 0;">Google's Quantum Breakthrough: Project Willow</h3>
+                    <p style="color: #666; line-height: 1.6;">Explore Google's latest quantum computing achievement with Willow - a revolutionary quantum processor promising enhanced error correction and scalability.</p>
+                    <a href="javascript:void(0)" onclick="toggleArticle('willow-article')" style="display: inline-block; background: #2193b0; color: white; padding: 0.5rem 1rem; text-decoration: none;">Read More</a>
+                    <div id="willow-article" style="display: none; margin-top: 1rem;">
+                        <h4 style="color: #2193b0;">Full Article</h4>
+                        <p style="color: #666; line-height: 1.6;">
+                            Google has announced a major breakthrough in quantum computing with their new processor codenamed "Willow". This revolutionary quantum processor represents a significant leap forward in the field.
+                        </p>
+                        <p style="color: #666; line-height: 1.6;">
+                            The Willow processor utilizes a novel architecture that implements advanced error correction protocols, allowing for more stable and reliable quantum computations. This advancement addresses one of the biggest challenges in quantum computing.
+                        </p>
+                        <p style="color: #666; line-height: 1.6;">
+                            In terms of scalability, Willow introduces a modular design that allows for easier expansion of quantum processing capabilities. This approach could potentially pave the way for practical quantum computers in the near future.
+                        </p>
+                        <a href="javascript:void(0)" onclick="toggleArticle('willow-article')" style="display: inline-block; background: #2193b0; color: white; padding: 0.5rem 1rem; text-decoration: none;">Collapse</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional article cards -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: #2193b0; color: white; padding: 2rem 0; margin-top: 3rem;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+            <p style="margin: 0;">© 2024 Sachin Chaudhari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleArticle(id) {
+            var article = document.getElementById(id);
+            if (article.style.display === "none") {
+                article.style.display = "block";
+            } else {
+                article.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
